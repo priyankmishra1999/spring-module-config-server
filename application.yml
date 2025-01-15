@@ -50,4 +50,5 @@ management:
 #       eventConsumerBufferSize: 10
 
 data:
-  value: "priya"
+  value: priya
+
