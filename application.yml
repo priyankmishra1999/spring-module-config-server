@@ -48,3 +48,6 @@ management:
 #       waitDurationInOpenState: 5s
 #       failureRateThreshold: 50
 #       eventConsumerBufferSize: 10
+
+data:
+  value: "priya"
