@@ -2,23 +2,23 @@ spring:
   application:
     name: Hospital
 
-  datasource:
-    url: jdbc:mysql://localhost:3306/hospital_db?createDatabaseIfNotExist=true&useUnicode=yes&characterEncoding=UTF-8&characterSetResults=UTF-8&useSSL=false&allowPublicKeyRetrieval=true
-    username: root
-    password: 1234567890
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    tomcat:
-      max-wait: 20000
-      max-active: 50
-      max-idle: 20
-      min-idle: 15
+  # datasource:
+  #   url: jdbc:mysql://localhost:3306/hospital_db?createDatabaseIfNotExist=true&useUnicode=yes&characterEncoding=UTF-8&characterSetResults=UTF-8&useSSL=false&allowPublicKeyRetrieval=true
+  #   username: root
+  #   password: 1234567890
+  #   driver-class-name: com.mysql.cj.jdbc.Driver
+  #   tomcat:
+  #     max-wait: 20000
+  #     max-active: 50
+  #     max-idle: 20
+  #     min-idle: 15
 
-  jpa:
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.MySQLDialect
-    hibernate:
-      ddl-auto: update
+  # jpa:
+  #   properties:
+  #     hibernate:
+  #       dialect: org.hibernate.dialect.MySQLDialect
+  #   hibernate:
+  #     ddl-auto: update
   kafka:
     consumer:
       bootstrap-servers: localhost:9092
